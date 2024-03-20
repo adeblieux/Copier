@@ -35,4 +35,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 The progress bar implementation in this code is inspired by examples found online, but modified for the specific use case of this project.
 
 ## Author
-adeblieux
+[@adeblieux](https://github.com/adeblieux).
