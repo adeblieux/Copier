@@ -56,8 +56,8 @@ int main(int argc, char* argv[]) {
     return 0; // Return success status
 }
 
-#define PBSTR "---------------------{{---<((@)"
-#define PBWIDTH 60
+#define PBSTR "--------------------{{---<((@)"
+#define PBWIDTH 30
 
 // Function to print progress
 void printProgress(double percent) {
