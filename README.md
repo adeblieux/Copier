@@ -7,8 +7,9 @@ File Copier is a simple command-line tool written in C that copies the contents 
 To use the File Copier, follow these steps:
 
 1. Compile the source code:
-   ```bash
-   $ gcc -o copier copier.c
+```bash
+$ gcc -o copier copier.c
+```
    
 ### Usage Format:
 Run the executable with the source file and destination file as arguments:
