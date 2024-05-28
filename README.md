@@ -29,7 +29,7 @@ Run the executable with the source file and destination file as arguments:
 - Progress bar may not be displayed accurately for very large files due to limitations in file size calculations.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the Apache License. See the LICENSE file for details.
 
 ## Acknowledgements
 The progress bar implementation in this code is inspired by examples found online, but modified for the specific use case of this project.
