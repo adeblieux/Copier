@@ -17,11 +17,13 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
     - name: Show contents of source file before
       run: cat source.c
-    - name: compile
-      run: gcc -o copier copier.c
     - name: Show contents of destination file before
       run: cat destination.c
+    - name: compile
+      run: gcc -o copier copier.c
     - name: run tests
       run: ./copier source.c destination.c  # Assuming you want to copy from source.c to destination.c
+    - name: Show contents of source file after
+      run: cat source.c
     - name: Show contents of destination file after
       run: cat destination.c
